@@ -63,6 +63,7 @@ public class Main {
         try {
             AMQP.Queue.DeclareOk result = channel.queueDeclare(queueName.name(), false, false, false, null);
             return result.getMessageCount();
+            // TO DO: build own counter
 
         } catch (IOException e) {
             System.err.println("Error checking message count for queue " + queueName + ": " + e.getMessage());
