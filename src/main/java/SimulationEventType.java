@@ -9,5 +9,5 @@ public enum SimulationEventType {
     FOOD_DEPLETED,      // Food quantity has reached 0.
     USE_FOOD_PH,        // Ant is backtracking the FOOD pheromones path from the other ants to find the nest.
     REPRODUCTION,       // A pair of ants has reproduced.
-    DEATH               // Ant has died by starvation.
+    DEATH               // Ant has died of old age.
 }
