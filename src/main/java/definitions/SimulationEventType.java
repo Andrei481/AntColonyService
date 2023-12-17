@@ -1,3 +1,5 @@
+package definitions;
+
 /* Keep up to date with the main app !!!!!! */
 public enum SimulationEventType {
     FOOD_CREATED,       // Food entity was created according to the pre-defined map.
